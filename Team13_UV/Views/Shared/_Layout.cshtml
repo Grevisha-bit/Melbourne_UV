@@ -9,17 +9,17 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
+    <div class="navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-left">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Melbourne UV", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("UVGuard", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse navbar-right" style="float: right;">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Melbourne UV Data", "Index", "UV_Data")</li>
@@ -31,8 +31,12 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Team13 Melbourne UV website</p>
         </footer>
+    </div>
+
+    <div class="panel-footer navbar-fixed-bottom" style="background-color: #11ffee00; color: white;">
+
+        <p> &copy; @DateTime.Now.Year - Team13 Melbourne UV website</p>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
