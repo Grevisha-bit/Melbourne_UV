@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Team13_UVStoreContainer" CdmEntityContainer="Team13_UVContainer">
+    <EntitySetMapping Name="UV_data">
+      <EntityTypeMapping TypeName="IsTypeOf(Team13_UV.UV_data)">
+        <MappingFragment StoreEntitySet="UV_data">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="UV_Index" ColumnName="UV_Index" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

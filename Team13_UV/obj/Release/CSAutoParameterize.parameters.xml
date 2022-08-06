@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Team13_UVContainer-Web.config Connection String" description="Team13_UVContainer 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="metadata=res://*/Models.Team13_UV.csdl|res://*/Models.Team13_UV.ssdl|res://*/Models.Team13_UV.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\Team13_UV.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\FIT5120\\FIT5120_Week3_Demo\\Team13_UV\\Team13_UV\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Team13_UVContainer']/@connectionString" />
+  </parameter>
+  <parameter name="Model1Container-Web.config Connection String" description="Model1Container 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\Database1.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\FIT5120\\FIT5120_Week3_Demo\\Team13_UV\\Team13_UV\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model1Container']/@connectionString" />
+  </parameter>
+</parameters>
